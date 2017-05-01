@@ -1,0 +1,7 @@
+
+<script type="text/javascript" src="/bundle/app.js"></script>
+<script src="/meanStarter/assets/js/md-data-table.js"></script>
+
+{% if (process.env.NODE_ENV == 'development') %}
+  <script type="text/javascript" src="{{'//' + req.hostname + ':35729/livereload.js'}}"></script>
+{% endif %}
